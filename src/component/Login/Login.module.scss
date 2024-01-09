@@ -1,0 +1,243 @@
+
+.mainContainer{
+    overflow: hidden;
+    height: 100vh;
+    background-color: #fff;
+}
+
+input{
+  box-shadow: none !important;
+}
+button{
+    box-shadow: none !important;
+}
+
+.login{
+    height: 100vh;
+    width: 100%;
+  background-color: rgb(64, 38, 64);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .movingPage{
+color: red;
+font-size: 45px;
+font-weight: 700;
+font-style: italic;
+  }
+  
+}
+
+.logins{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+// .loginDiv {
+//   --border-size: 3px;
+//   --border-angle: 0turn;
+//   background-image: conic-gradient(
+//       from var(--border-angle),
+//       rgb(244, 242, 245),
+//       rgb(244, 242, 245),
+//       rgb(244, 242, 245),
+//     ),
+//     conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+//   background-size: calc(100% - (var(--border-size) * 2))
+//       calc(100% - (var(--border-size) * 2)),
+//     cover;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   animation: bg-spin 3s linear infinite;
+//   @keyframes bg-spin {
+//     to {
+//       --border-angle: 1turn;
+//     }
+//   }
+
+//   &:hover {
+//     animation-play-state: paused;
+//   }
+// }
+
+// @property --border-angle {
+//   syntax: "<angle>";
+//   inherits: true;
+//   initial-value: 0turn;
+// }
+
+
+.loginDiv{
+    padding:30px 20px;
+    width:58%;
+    border-radius: 10px;
+    position: relative;
+          box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 20px 0px rgba(0,0,0,0.75);
+    .iconPerson{
+      font-size: 65px;
+      color: red !important;
+      position: absolute;
+      top: -15%;
+      left: 50%;
+      transform: translate(-50%);
+      z-index: 6;
+
+    }
+
+    .extraDiv{
+      border: solid white;
+      height: 10px;
+      width: 53px;
+      background-color: white;
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      transform: translate(-50%);      
+    }
+}
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    // color: white;
+    // border: solid 1px;
+    width: 100% !important;
+    height: 80px;
+    font-size: 14px;
+    
+    input{
+      width: 100%;
+       padding: 10px; 
+       border-radius: 5px;
+    }
+
+    .errorMessage{
+      color: red;
+      font-size: 13px;
+      margin-top: 5px;
+    }
+}
+.needDiv{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+    span{
+        cursor: pointer;
+    }
+}
+.btnDiv{
+margin-top: 20px;
+}
+
+/* Default button style */
+.rotate_border {
+    padding: 10px 20px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: #4F95DA;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    position: relative;
+    border: none !important;
+
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+
+  .otpReceiver{
+    text-align: center;
+  }
+
+.otp_field {
+    flex-direction: row;
+    column-gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .otp_field input {
+    height: 45px;
+    width: 42px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.125rem;
+    text-align: center; 
+    border: 1px solid skyblue;
+  }
+  .otp_field input:focus {
+    outline: rgb(184, 125, 125) solid 1px;
+  }
+  .otp_field input::-webkit-inner-spin-button,
+  .otp_field input::-webkit-outer-spin-button {
+    display: none;
+  }
+  
+  .resend {
+    font-size: 12px;
+  }
+  
+  .passInput{
+    position: relative;
+  }
+  .eyeSpan{
+    position: absolute;
+    top: 25px;
+    font-size: 22px;
+    right: 15px;
+    color: black;
+  }
+  .emailInput{
+    width: 100%;
+       padding: 10px; 
+       border-radius: 5px;
+       border: solid 1px skyblue;
+  }
+
+ .error{
+  color: red;
+  font-size: 13px;
+ }

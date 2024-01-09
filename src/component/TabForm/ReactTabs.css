@@ -1,0 +1,109 @@
+li{
+    list-style: none;
+    border: solid;
+}
+.tab-panel {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .tab-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab-list li {
+    cursor: pointer;
+    /* padding: 10px 20px; */
+    border: none;
+    padding: 0 !important;
+    height: 30px;
+    width: 150px;
+  }
+
+  .activestab{
+    border: solid;
+  }
+  
+  .tab-list li.active {
+    /* border-bottom:7px solid blue; */
+    /* border: solid; */
+    border-radius: 50px;
+    background-color: skyblue;
+
+  }
+  .actives{
+    border: solid;
+  }
+  
+  .tab-content {
+    padding: 10px;
+  }
+  
+  .tab-pane {
+    display: none;
+  }
+  
+  .tab-pane.active {
+    display: block;
+  }
+  
+  .maisn{
+    border: solid;
+  }
+
+
+
+  /* Target the Tab List (the container for tabs) */
+.TabList {
+    display: flex;
+    gap: 5px;
+  }
+  
+  /* Target individual Tab items */
+  .Tab {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  /* Change tab background on hover */
+  .Tab:hover {
+    background-color: #0056b3;
+  }
+
+  /* Style the table in the first tab panel */
+.TabPanel:nth-child(1) {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the h2 element in the second tab panel */
+  .TabPanel:nth-child(2) h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .tabList{
+    padding:10px 20px ;
+  }
+ 
+  .error {
+    border: 2px solid red !important;
+    outline: red !important;
+  }
+  
+  *:focus{
+    outline: none !important;
+  }
+  
+  
+  
+  
+  
